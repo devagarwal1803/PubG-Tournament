@@ -1,0 +1,53 @@
+Content-Type: multipart/alternative;
+ boundary="===============3856143392911182347=="
+MIME-Version: 1.0
+Subject: Profile activation
+From: test@example.com
+To: devagarwal1803@gmail.com
+Date: Mon, 15 Apr 2019 16:54:18 -0000
+Message-ID: <155534725858.6964.3038964271296950565@LAPTOP-OJNQ8NVJ>
+
+--===============3856143392911182347==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+
+To activate your profile, please follow this link:
+
+http://localhost:8000/accounts/activate/FTE84wpgthftfzS2rlYe/
+
+--===============3856143392911182347==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Profile activation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<p>
+    To activate your profile, please follow this link:
+</p>
+
+<p>
+    <a href="http://localhost:8000/accounts/activate/FTE84wpgthftfzS2rlYe/">http://localhost:8000/accounts/activate/FTE84wpgthftfzS2rlYe/</a>
+</p>
+
+</body>
+
+</html>
+
+--===============3856143392911182347==--
+
+-------------------------------------------------------------------------------

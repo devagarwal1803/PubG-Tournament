@@ -1,0 +1,23 @@
+{% extends 'layouts/default/page.html' %}
+
+{% load i18n %}
+
+{% block content %}
+
+    {% if request.user.is_authenticated %}
+
+        {% trans 'Your username is' %} <b>{{ request.user.username }}</b>.
+        <br>
+        {% trans 'Your Team ID is ->' %}<strong>{{ request.user.id }}</strong>
+        <br>
+        {% if request.user.is_staff %}
+            {{ request.user.last_name | safe }}
+        {% endif %}
+
+    {% else %}
+
+        {% trans 'You are a guest.' %}
+
+    {% endif %}
+
+{% endblock %}
